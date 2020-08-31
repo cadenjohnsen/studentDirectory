@@ -1,9 +1,3 @@
-/*
- * This is the file in which you will implement the functionality required by
- * the assignment.  Make sure to add your name and @oregonstate.edu email
- * address below:
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -114,12 +108,8 @@ struct student* create_student_array(int num_students, char** names, int* ids,
 
 	for(int i = 0; i < num_students; i++) {
 		init_student(&student[i], names[i], ids[i], gpas[i]);
-		//student[i].name = names[i];
-		//student[i].id = ids[i];
-		//student[i].gpa = gpas[i];
 	}
 	return student;
-	//return NULL;
 }
 
 
@@ -183,7 +173,6 @@ struct student* find_max_gpa(struct student* students, int num_students) {
 		}
 	}
 	return &students[j];
-	//return NULL;
 }
 
 
@@ -212,7 +201,6 @@ struct student* find_min_gpa(struct student* students, int num_students) {
 		}
 	}
 	return &students[j];
-	//return NULL;
 }
 
 
