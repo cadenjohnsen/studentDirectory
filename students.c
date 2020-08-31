@@ -2,9 +2,6 @@
  * This is the file in which you will implement the functionality required by
  * the assignment.  Make sure to add your name and @oregonstate.edu email
  * address below:
- *
- * Name:
- * Email:
  */
 
 #include <stdio.h>
